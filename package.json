@@ -1,0 +1,17 @@
+{
+  "name": "test-frontend-cicd",
+  "version": "1.0.0",
+  "description": "Test frontend CI/CD workflow",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building...' && exit 0",
+    "test": "echo 'Running tests...' && exit 0",
+    "deploy": "echo 'Deploy would happen here'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
