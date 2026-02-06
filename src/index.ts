@@ -1,6 +1,8 @@
-// Simple TypeScript file for testing
-export function greet(name: string): string {
-  return `Hello, ${name}!`;
-}
+// Main application entry point
+import { App } from './App';
 
-console.log(greet("Frontend CI/CD"));
+console.log('Frontend application loaded');
+
+// Initialize app
+const app = new App();
+app.initialize();
